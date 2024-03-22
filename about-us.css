@@ -20,3 +20,19 @@
    text-align: justify;
    padding: 3rem 10%; 
 }
+
+@media (max-width:675px) {
+   .text {
+       font-size: 1.5rem;
+       text-align: start;
+       padding: 3rem 10%; 
+    }
+}
+
+@media (max-width:500px) {
+    .text {
+        font-size: 1.2rem;
+        text-align: start;
+        padding: 3rem 10%; 
+     }
+ }
