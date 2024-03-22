@@ -1,0 +1,54 @@
+.zagolovok {
+    font-size: 1.7em;
+    text-align:left;
+    padding: 1.5rem 2rem 0.3rem;
+}
+
+.zagolovok2 {
+    font-size: 1.4em;
+    text-align:left;
+    padding: 0 1rem 0 3rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 3rem 10%; 
+}
+
+.tv {
+    color: rgb(138, 138, 138);
+    font-size: 1.3em;
+}
+
+.velo {
+    display: flex;
+}
+
+.gr {
+    display: flex;
+}
+
+.category {
+    font-size: 1em;
+    margin-right: 1.2rem;
+    color: rgb(136, 136, 136);
+    transition: color 3s linear;
+}
+.category:hover {
+    color: black;
+}
+
+.pos {
+    display: flex;
+}
+
+.otstyp2 {
+    padding-left: 3rem;
+}
+
+@media (max-width: 430px) {
+    .otstyp2 {
+        padding-left: 1rem;
+    }
+}

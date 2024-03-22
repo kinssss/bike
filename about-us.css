@@ -1,0 +1,22 @@
+.contact {
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    max-width:100%;
+}
+
+.zagolovok {
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.text {
+   font-size: 1.5rem;
+   text-align: justify;
+   padding: 3rem 10%; 
+}
