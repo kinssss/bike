@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="catalog.css">
     <link rel="stylesheet" href="head-footer.css">
+    <link rel="stylesheet" href="card.css">
   </head>
 
   <body>
@@ -90,22 +91,140 @@
     <!-- Задний фон хедера -->
     <div class="parallax" style="background-image: url('img/bg.jpg');"></div>
 
-    <!-- Где нас найти -->
-    <div class="line">
-        <hr/>
-    </div>
+    <!-- Каталог -->
 
-    <div>
-        <div class="adress">
-            <p class="tag1"><b>КОНТАКТЫ</b></p>
-            <a class="category">г. Пермь, ул. Пушкина, д. 107А</a>
-            <a class="category" style="padding-bottom: 3rem;" href="tel:79526553102">Телефон: +79526553102</a>
+    <p class="zagolovok"><b>КАТАЛОГ</b></p>
+    <div class="velo">
+       <a class="zagolovok2" style="text-decoration: none; color: black;" href="catalog.html"><b>ВЕЛОСИПЕДЫ</b></a>
+       <p class="tv"><b>4 товара</b></p>  
+    </div>
+    <div class="gr" style="padding-bottom: 2rem;">
+        <a class="category otstyp2" href="catalog1.html">горные велосипеды</a>
+        <a class="category" href="catalog2.html">шоссейные велосипеды</a>
+        <a class="category" href="catalog3.html">экстремальные велосипеды</a>
+    </div>
+    
+    <!-- карточки товаров -->
+
+    <div class="cards">
+
+      <!-- карточка 9 -->
+      <div class="card">
+        <!-- Верхняя часть -->
+        <div class="card__top">
+          <!-- Изображение-ссылка товара -->
+          <a href="#" class="card__image">
+            <img
+              src="img/extreme1.jpg"
+            />
+          </a>
+          <!-- Скидка на товар -->
+          <div class="card__label">-10%</div>
         </div>
-        <div class="map">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abc312c81eab89934009e5551fac71f2b53f43bcb6fd0f7b8ad5fc7dbc819f09c&amp;source=constructor" width="900" height="400" frameborder="0"></iframe>  
-        </div> 
-    </div>
+        <!-- Нижняя часть -->
+        <div class="card__bottom">
+          <!-- Цены на товар (с учетом скидки и без)-->
+          <div class="card__prices">
+            <div class="card__price card__price--discount">29 999</div>
+            <div class="card__price card__price--common">32 999</div>
+          </div>
+          <!-- Ссылка-название товара -->
+          <a href="#" class="card__title">
+            Экстремальный велосипед Stern Piligrim
+          </a>
+          <!-- Кнопка добавить в корзину -->
+          <button class="card__add">В корзину</button>
+        </div>
+      </div>
 
+      <!-- карточка 10 -->
+      <div class="card">
+        <!-- Верхняя часть -->
+        <div class="card__top">
+          <!-- Изображение-ссылка товара -->
+          <a href="#" class="card__image">
+            <img
+              src="img/extreme2.jpg"
+            />
+          </a>
+          <!-- Скидка на товар -->
+          <div class="card__label">-10%</div>
+        </div>
+        <!-- Нижняя часть -->
+        <div class="card__bottom">
+          <!-- Цены на товар (с учетом скидки и без)-->
+          <div class="card__prices">
+            <div class="card__price card__price--discount">24 999</div>
+            <div class="card__price card__price--common">27 499</div>
+          </div>
+          <!-- Ссылка-название товара -->
+          <a href="#" class="card__title">
+            Эстремальный велосипед Stern Shaman 20
+          </a>
+          <!-- Кнопка добавить в корзину -->
+          <button class="card__add">В корзину</button>
+        </div>
+      </div>
+      
+      <!-- карточка 11 -->
+      <div class="card">
+        <!-- Верхняя часть -->
+        <div class="card__top">
+          <!-- Изображение-ссылка товара -->
+          <a href="#" class="card__image">
+            <img
+              src="img/extreme3.jpg"
+            />
+          </a>
+          <!-- Скидка на товар -->
+          <div class="card__label">-10%</div>
+        </div>
+        <!-- Нижняя часть -->
+        <div class="card__bottom">
+          <!-- Цены на товар (с учетом скидки и без)-->
+          <div class="card__prices">
+            <div class="card__price card__price--discount">37 999</div>
+            <div class="card__price card__price--common">41 799</div>
+          </div>
+          <!-- Ссылка-название товара -->
+          <a href="#" class="card__title">
+            Экстремальный велосипед Stern Ranger
+          </a>
+          <!-- Кнопка добавить в корзину -->
+          <button class="card__add">В корзину</button>
+        </div>
+      </div>
+      
+      <!-- карточка 12 -->
+      <div class="card">
+        <!-- Верхняя часть -->
+        <div class="card__top">
+          <!-- Изображение-ссылка товара -->
+          <a href="#" class="card__image">
+            <img
+              src="img/extreme4.jpg"
+            />
+          </a>
+          <!-- Скидка на товар -->
+          <div class="card__label">-10%</div>
+        </div>
+        <!-- Нижняя часть -->
+        <div class="card__bottom">
+          <!-- Цены на товар (с учетом скидки и без)-->
+          <div class="card__prices">
+            <div class="card__price card__price--discount">32 200</div>
+            <div class="card__price card__price--common">35 420</div>
+          </div>
+          <!-- Ссылка-название товара -->
+          <a href="#" class="card__title">
+            Экстремальный велосипед Haro
+          </a>
+          <!-- Кнопка добавить в корзину -->
+          <button class="card__add">В корзину</button>
+        </div>
+      </div>
+
+    </div>
 
     <!-- подвал -->
     <div>
