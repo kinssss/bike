@@ -200,5 +200,210 @@ a.store:hover{
   color: #000;
   size: 2;
   padding: 0.5rem 0rem;
-  width: 110%;
+  width: 100%;
+}
+
+/* новости велотуров и велоспорта */
+
+.group2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.group3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 1rem;
+}
+
+.blok {
+  margin-bottom: 1.2rem;
+  width: 55%;
+  height: 200px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: row;
+}
+
+.blok:hover {
+  box-shadow: 4px 8px 16px rgba(184, 179, 178, 0.582);
+}
+
+.strelka {
+  width: 30px;
+  height: 30px;
+}
+
+.photo {
+  width: 150px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.text2 {
+  font-size: 1rem;
+  padding: 0 1.5rem;
+}
+
+.rovno {
+  display: flex;
+  flex-direction: column;
+}
+
+.check {
+  background-color: #e09f10; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 12rem;
+  height: auto;
+  border-radius: 7px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.check1 {
+background-color: white; 
+color: black; 
+border: 2px solid #e09f10;
+}
+
+.check1:hover {
+  background-color: #e09f10;
+  color: white;
+}
+
+.place {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+@media (max-width: 1400px) {
+  .blok {
+      margin-bottom: 1.2rem;
+      width: 55%;
+      height: auto;
+      background-color: rgb(247, 247, 247);
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      transition: 0.2s;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 1rem;
+  }
+  
+}
+
+@media (max-width: 720px) {
+  .blok {
+      margin-bottom: 1.2rem;
+      width: 100%;
+      height: auto;
+      background-color: rgb(247, 247, 247);
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      transition: 0.2s;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 1rem;
+  }
+  
+}
+
+.zagolovok2 {
+  font-size: 1.5em;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+/* где нас найти */
+
+.map {
+  justify-content: center;
+  display: flex;
+}
+
+.adress {
+  display: grid;
+  text-decoration: none;
+  line-height: 1.5em;
+  color: #000;
+  justify-content: center;
+  text-align: center;
+}
+
+/* кнопка авторизации */
+
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
 }

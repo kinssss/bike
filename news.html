@@ -18,15 +18,27 @@
     <!-- Шапка -->
     <header class="header">
       <nav class="navbar fixed-top">
-        <div class="container-fluid"> 
+        <div class="container-fluid">
+          
+          <div style="display: flex;">
             <!-- кнопка меню -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+            </div>
+            
             <!-- название -->
-          <h2 style="display: flex; align-items: end;"><b>БАЙК</b></h2>
+            <div>
+              <p style="display: flex; font-size: 1.5rem; padding-left: 1rem;"><b>БАЙК</b></p>
+            </div>
+          </div>
+         
           <!-- кнопка авторизаци -->
-          <img src="img/user.png" class="reg-button" href="#">
+          <div>
+            <button class="button-4" role="button">Авторизация</button>
+          </div>
+          
           
           <!-- настройка бургер меню -->
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -80,7 +92,7 @@
 
     <!-- Новости -->
 
-    <p class="zagolovok"><b>НОВОСТИ ПРЕДСТОЯЩИХ ВЕЛОТУРОВ</b></p>
+    <p class="zagolovok"><b>НОВОСТИ ВЕЛОСПОРТА И ПРЕДСТОЯЩИХ ВЕЛОТУРОВ</b></p>
 
     <div class="group">
 
@@ -92,7 +104,9 @@
               <h2 class="name"><b>Шестой день велотура по Абхазии с Артемом Ковалем</b></h2>
               <p class="text2">Встречайте следующую серию приключенческого блокбастера  снятого во время велотура “Страна души. Абхазия” в марте этого года</p>
               <div class="place">
-                <button class="check check1">Перейти к новости</button>
+                <button type="button" class="check check1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Перейти к новости
+                </button>
               </div>
             </div>
         </div>
@@ -122,6 +136,32 @@
             </div>
           </div>
         </div>
+
+        <div class="blok">
+          <div>
+            <img src="img/photo4.png" class="photo">
+          </div>
+          <div class="rovno">
+            <h2 class="name"><b>Мадс Педерсен  — двукратный победитель Гент-Вевельгем</b></h2>
+            <p class="text2">28-летний датский велогонщик команды Lidl-Trek Мадс Педерсен одержал вторую в карьере победу на классике Гент-Вевельгем, выиграв спринт у действующего чемпиона мира Матье ван дер Пула</p>
+            <div class="place">
+              <button class="check check1">Перейти к новости</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="blok">
+          <div>
+            <img src="img/photo5.png" class="photo">
+          </div>
+          <div class="rovno">
+            <h2 class="name"><b>Тадей Погачар выиграл общий зачёт Вуэльты Каталонии-2024</b></h2>
+            <p class="text2">Тадей Погачар добавил к трём горным этапам Вуэльты Каталонии-2024, выигранным из сольного отрыва, победу в спринте на финальном 7-м этапе в Барселоне</p>
+            <div class="place">
+              <button class="check check1">Перейти к новости</button>
+            </div>
+          </div>
+        </div>
   
     </div>
 
@@ -143,6 +183,7 @@
             <a class="category" href="about-us.html">О нас</a>
             <a class="category" href="catalog.html">Каталог</a>
             <a class="category" href="contacts.html">Где нас найти</a>
+            <a class="category" href="news.html">Новости</a>
             <a class="category" href="#" style="padding-bottom: 3rem;">Личный кабинет</a>
           </div>
     
@@ -163,7 +204,29 @@
             <a class="category" style="padding-bottom: 3rem;">Телефон: +79526553102</a>
           </div>
         </div>
-      </div>    
+      </div>
+      
+      <!-- блок новости 1 -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Шестой день велотура по Абхазии с Андреем Ковалем</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Встречайте следующую серию приключенческого блокбастера снятого во время велотура "Страна души. Абхазия" в марте этого года
+              <div style="align-items: center; display: flex; justify-content: center;">
+                <img src="img/news-velo1.jpg" style="width: 70%; height: 30%; padding-top: 1rem;">
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
 
 </html>
