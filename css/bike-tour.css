@@ -1,0 +1,136 @@
+.para {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.check {
+    background-color: #e09f10; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.check1 {
+  background-color: none; 
+  color: black; 
+  border: 2px solid #e09f10;
+}
+
+.check1:hover {
+    background-color: #e09f10;
+    color: white;
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    padding-right: 2rem;
+}
+
+.strela {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.text {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.text5 {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .text5 {
+        font-size: 1rem;
+        text-decoration: none;
+        color: black;
+        text-align: left;
+    }
+}
+
+.text2 {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.blok {
+    margin-bottom: 1.2rem;
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1150px) {
+    .blok {
+        margin-bottom: 1.2rem;
+        width: 100%;
+        height: auto;
+        background-color: rgb(247, 247, 247);
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        transition: 0.2s;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.line3 {
+    width:95%;
+    color:#000;
+}
+
+.packet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem;
+    align-items: baseline;
+}
+
+@media (max-width: 600px) {
+    .packet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1rem;
+        align-items: baseline;
+    }
+}

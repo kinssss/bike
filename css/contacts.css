@@ -1,0 +1,13 @@
+.map {
+    justify-content: center;
+    display: flex;
+}
+
+.adress {
+    display: grid;
+    text-decoration: none;
+    line-height: 1.5em;
+    color: #000;
+    justify-content: center;
+    text-align: center;
+}
